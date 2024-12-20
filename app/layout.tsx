@@ -1,9 +1,9 @@
 import { ClerkProvider } from "@clerk/nextjs";
-import "./globals.css"; // Assure-toi que tes styles Tailwind sont importés.
+import "./globals.css"; // Assure-toi d'avoir un fichier CSS global.
 
 export const metadata = {
   title: "Mon Projet Clerk",
-  description: "Projet avec Clerk et Next.js",
+  description: "Site avec Clerk et Next.js",
 };
 
 export default function RootLayout({
