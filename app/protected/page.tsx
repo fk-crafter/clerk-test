@@ -3,15 +3,15 @@ import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/nextjs";
 export default function ProtectedPage() {
   return (
     <div className="h-screen flex flex-col justify-center items-center gap-4">
-      <h1 className="text-3xl font-bold">Page Protégée 🔒</h1>
+      <h1 className="text-3xl font-bold">page de connexion</h1>
 
       <SignedIn>
-        <p>Bienvenue dans la section protégée 🎉</p>
+        <p>bienvenue sur la page de connexion</p>
         <UserButton afterSignOutUrl="/" />
       </SignedIn>
 
       <SignedOut>
-        <p>Tu dois être connecté pour accéder à cette page.</p>
+        <p>tu dois être connecté pour accéder à cette page.</p>
         <SignInButton />
       </SignedOut>
     </div>
