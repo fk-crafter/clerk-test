@@ -1,5 +1,5 @@
 import { ClerkProvider } from "@clerk/nextjs";
-import "./globals.css"; // Assure-toi d'avoir un fichier CSS global.
+import "./globals.css"; 
 
 export const metadata = {
   title: "Mon Projet Clerk",
